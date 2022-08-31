@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>autofocus와 placeholder 속성 사용하기</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>배송 정보</legend>
+        <label for="user-name">이름</label>
+        <input type="text" id="user-name" autofocus />
+        <label>배송 주소<input type="text" /></label>
+        <label>이메일<input type="email" /></label>
+        <label for="phone">연락처</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="하이픈 빼고 입력해주세요.(01012345678)"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
